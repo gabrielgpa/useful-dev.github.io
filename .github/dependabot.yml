@@ -7,6 +7,10 @@ updates:
     commit-message:
       prefix: "deps"
       include: "scope"
+    groups:
+      all-deps:
+        patterns:
+          - "*"
     open-pull-requests-limit: 10
     allow:
       - dependency-type: "production"
